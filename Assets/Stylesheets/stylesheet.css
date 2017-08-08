@@ -34,6 +34,7 @@ h5 {
     color: #a9b2b9;
     font-size: 14px;
     font-weight: 400;
+    text-transform: uppercase;
 }
 
 strong {
@@ -49,10 +50,15 @@ em {
 
 a {
   color: #648880;
+  text-decoration: none;
 }
 
 a:hover {
   color: #a9b2b9;
+}
+
+p a {
+    border-bottom: 1px solid #dfe2e5;
 }
 
 /*Grid*/
@@ -121,8 +127,6 @@ p {
     border: 1px solid #dfe2e5;
     padding: 10px 30px;
 }
-
-
 
 /*Home*/
 
