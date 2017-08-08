@@ -133,6 +133,7 @@ p {
 .hero {
     padding: 22px 80px 66px 80px;
     line-height: 44px;
+    text-align: center;
 }
 
 .hero h2 {
