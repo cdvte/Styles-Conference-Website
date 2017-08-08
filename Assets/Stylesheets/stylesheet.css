@@ -178,11 +178,14 @@ p {
 
 .tagline {
   margin: 66px 0 22px 0;
+  text-align: right;
 }
 
 .primary-nav {
   font-size: 14px;
   font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
 }
 
 /*Primary footer*/
@@ -196,4 +199,10 @@ p {
 .primary-footer small {
     float: left;
     font-weight: 400;
+}
+
+/*Navigation*/
+
+.nav {
+    text-align: right;
 }
