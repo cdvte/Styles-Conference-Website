@@ -1,6 +1,7 @@
 /*Custom font styles*/
 
 body {
+    background-color: #293f50;
     color: #888;
     font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -118,19 +119,30 @@ p {
 /*Buttons*/
 
 .btn {
+    color: #fff;
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
     border-radius: 5px;
     display: inline-block;
     margin: 0;
 }
 
 .btn-alt {
-    border: 1px solid #dfe2e5;
+    border: 1px solid #fff;
     padding: 10px 30px;
+}
+
+.btn-alt:hover {
+    background-color: #fff;
+    color: #648880;
 }
 
 /*Home*/
 
 .hero {
+    color: #fff;
     padding: 22px 80px 66px 80px;
     line-height: 44px;
     text-align: center;
@@ -205,6 +217,16 @@ p {
     float: left;
     font-weight: 400;
 }
+
+.primary-header a,
+.primary-footer a {
+  color: #fff;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #648880;
+}
+
 
 /*Navigation*/
 
