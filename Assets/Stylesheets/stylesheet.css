@@ -114,7 +114,15 @@ p {
     margin-bottom: 22px;
 }
 
+/*Leads*/
 
+.lead {
+  text-align: center;
+}
+.lead p {
+  font-size: 21px;
+  line-height: 33px;
+}
 
 /*Buttons*/
 
